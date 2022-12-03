@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+table{
+    position: absolute;
+    bottom: 40%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+input{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 10px;
+}
+
+.points{
+    top: 50px;
+}
